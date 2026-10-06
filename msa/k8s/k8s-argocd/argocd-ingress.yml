@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-      - argo.aws-esk.com
-    secretName: argo-aws-esk-com-tls
+      - argo.renuvo.store
+    secretName: server-renuvo-store-tls
   rules:
-  - host: argo.aws-esk.com
+  - host: argo.renuvo.store
     http:
       paths:
         - path: /
